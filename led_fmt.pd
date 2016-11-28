@@ -1,0 +1,10 @@
+#N canvas 426 533 450 300 10;
+#X obj 86 52 r rate;
+#X obj 66 74 snapshot~;
+#X obj 65 28 inlet~;
+#X obj 66 118 * 128;
+#X obj 66 162 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
